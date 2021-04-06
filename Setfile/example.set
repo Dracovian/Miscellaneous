@@ -1,0 +1,59 @@
+// ASCII and Non-ASCII characters in variables test (not all-encompassing of course)
+Amharic = ማስመሰያ
+Arabic = رمز
+Armenian = Նշան
+Belarusian = Токен
+Bengali = টোকেন
+Bulgarian = жетон
+Chinese (Simplified) = 代币
+Chinese (Traditional) = 代幣
+English = Index
+Georgian = აღნიშნა
+Greek = Ενδειξη
+Gujarati = ટોકન
+Hebrew = אסימון
+Hindi = टोकन
+Japanese = トークン
+Kannada = ಟೋಕನ್
+Kazakh = Төкен
+Khmer = ថូនី
+Korean = 토큰
+Kyrgyz = белги
+Lao = ໂທເຄັນ
+Macedonian = Знак
+Malayalam = ടോക്കൺ
+Marathi = टोकन
+Mongolian = Токен
+Burmese = တိုကင်
+Nepali = टोकन
+Pashto = ټوکن
+Persian = گفتن
+Punjabi = ਟੋਕਨ
+Russian = знак
+Sindhi = ٽوڪن
+Sinhala = ටෝකන්
+Tamil = டோக்கன்
+Telugu = టోకెన్
+Thai = เหรียญ
+Urdu = ٹوکن
+Vietnamese = Mã thông báo
+Yiddish = טאָקען
+
+// Testing boolean flags
+True = TRUE
+False = FALSE
+
+// Testing numbers
+Int 1 = 1024
+Int 2 = 1048576
+Int 3 = 01234567890
+
+// Testing arrays
+Array 1 => [1, B, 3]
+Array 2 => [A, 2, TRUE]
+
+// Testing
+	// Offsets
+		// In
+			// Single-line
+				// Comments

@@ -1,0 +1,40 @@
+% Set the document type
+\documentclass[12pt,a4paper,oneside]{book}
+
+% Packages
+\usepackage{etoc}
+\usepackage{natbib}
+\usepackage{listings}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage{graphbox}
+\usepackage{adjustbox}
+\usepackage[hidelinks,colorlinks,linkcolor=black]{hyperref}
+
+% Information
+\title{Linux Optimization Guide}
+\author{FR33THY}
+\date{\today}
+
+% Starting the document
+\begin{document}
+
+% Make our title page
+\maketitle
+
+% Create our table of contents
+\tableofcontents
+\etocsettocstyle{\subsection*{Contents:}}
+{\noindent\rule{\linewidth}{.4pt}}
+
+% Gather our chapters
+\input{Chapters/Chapter_01}
+\input{Chapters/Chapter_02}
+\input{Chapters/Chapter_03}
+\input{Chapters/Chapter_04}
+\input{Chapters/Chapter_05}
+\input{Chapters/Chapter_06}
+\input{Chapters/Chapter_07}
+
+\end{document}
