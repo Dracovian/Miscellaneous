@@ -22,6 +22,4 @@ Enter your User ID in commands/bot_configuration.py:54
 # Requirements
 
 - Discord
-- asyncio
-- aiohttp
-
+- Asyncio
